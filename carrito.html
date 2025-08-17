@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="barra"></div>
+    <div class="container">
+        <h1>Detalles de tu Pedido</h1>
+        <div class="contenido-tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="carrito-detalle"></tbody>
+            </table>
+
+            <div class="total">
+                <p><strong>Total:</strong> <span id="precio">S/. 0.00</span></p>
+            </div>
+
+            <div class="buttons-container">
+                <button class="button" onclick="window.location.href='menu.html'">Agregar más productos</button>
+                <button class="button" onclick="window.location.href='registro.html'">Continuar</button>
+            </div>
+        </div>
+    </div>
+    <div id="copyright"></div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="barra"></div>
+    <div class="contenido">
+        <h1>Selecciona tu Pedido</h1>
+
+        <div class="section">
+            <h2>Tamaño de Pizza</h2>
+
+            <div class="option">
+                <label for="tamaño">Tamaño:</label>
+                <select id="tamaño" name="tamaño">
+                    <option value="9">Mediana - 30-35cm</option>
+                    <option value="11">Grande - 35-40cm</option>
+                    <option value="13">Familiar - 40-45cm</option>
+                    <option value="15">Gigante - 45-50cm</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Masa de Pizza</h2>
+
+            <div class="option">
+                <label for="masa">Masa:</label>
+                <select id="masa" name="masa">
+                    <option value="tradicional">Tradicional</option>
+                    <option value="italiana">Italiana</option>
+                    <option value="borde_queso">Borde de Queso</option>
+                    <option value="pan_pizza">Pan Pizza</option>
+                </select>
+                <p id="masa-description"></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Salsa de Pizza</h2>
+
+            <div class="option">
+                <label for="salsa">Selecciona tu Salsa:</label>
+                <input type="radio" id="salsa_tomate" name="salsa" value="tomate" checked>
+                <label for="salsa_tomate">Salsa de Tomate</label><br>
+
+                <input type="radio" id="salsa_bbq" name="salsa" value="bbq">
+                <label for="salsa_bbq">Salsa BBQ</label><br>
+
+                <input type="radio" id="salsa_buffalo" name="salsa" value="buffalo">
+                <label for="salsa_buffalo">Salsa Buffalo</label>
+            </div>
+        </div>
+        <button class="button" id="añadir-carrito">Agregar al carrito</button>
+    
+    </div>
+    <div id="copyright"></div>
+</body>
+</html>

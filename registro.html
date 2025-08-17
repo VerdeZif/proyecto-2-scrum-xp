@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="barra"></div>
+    <div class="registro-contenido">
+        <h1>Detalles de tu Pedido</h1>
+
+        <div class="section">
+            <h2>Especificaciones de la Pizza</h2>
+            <p><strong>Tamaño:</strong> <span id="pizza-tamano"></span></p>
+            <p><strong>Masa:</strong> <span id="pizza-masa"></span></p>
+            <p><strong>Salsa:</strong> <span id="pizza-salsa"></span></p>
+            <p><strong>Cantidad:</strong> <span id="pizza-cantidad"></span></p>
+        </div>
+
+        <div class="section">
+            <h2>Ubicación de Entrega</h2>
+            <p><strong>Dirección:</strong> <span id="direccion"></span></p>
+        </div>
+
+        <button class="button" id="finalizar-pedido">Finalizar Pedido</button>
+
+        <div class="boleta" id="boleta" style="display: none;">
+            <h3>Boleta de Pedido</h3>
+            <p>Has elegido una pizza <span id="boleta-tamano"></span> con masa <span id="boleta-masa"></span>, salsa <span id="boleta-salsa"></span> y cantidad de <span id="boleta-cantidad"></span> pizza(s).</p>
+            <p><strong>Dirección de Entrega:</strong> <span id="boleta-direccion"></span></p>
+            <p><strong>Total:</strong> <span id="boleta-total"></span></p>
+        </div>
+    </div>
+    <div id="copyright"></div>
+</body>
+</html>
